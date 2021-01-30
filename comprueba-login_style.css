@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    margin:20px auto;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+form input{
+    margin-bottom: 15px;
+}
+
+form label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+#respuesta{
+    margin: auto;
+    background-color: lightblue;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.boton_form{
+    width:100px;
+    margin: auto;
+}
