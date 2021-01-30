@@ -53,7 +53,7 @@ if($n_usuario==""){
     
                         if ($tarea==false){
                             echo ("Error en el registo. Vuelva a intentarlo.<br>");
-                            echo "<p><a href='formulario_registro.php'>Intenta de nuevo</a></p>";
+                            echo "<p><a href='formulario_registrar.php'>Intenta de nuevo</a></p>";
                         }else{
                             echo("Felicitaciones $n_usuario. Registro exitoso.<br><br>");
             
