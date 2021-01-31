@@ -28,3 +28,14 @@ form label{
     width:100px;
     margin: auto;
 }
+
+#barra{
+    text-align: right;
+}
+#lateral{
+    background-color: lightskyblue;
+    width:400px;
+    float: right;
+    display:none;
+    height:100vh;
+}

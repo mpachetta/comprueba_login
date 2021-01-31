@@ -29,7 +29,7 @@ try{
             $verificar=password_verify($contra_entrar,$registro['contra']);
             
             if($verificar){
-                echo "ok, habilitado";
+                echo "ok";
             }else{
 
                 echo "La contraseña es incorrecta. <br>Intente nuevamente.";

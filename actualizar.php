@@ -5,7 +5,7 @@ require ('validar_password.php');
 
 
 // $n_usuario=$_SESSION['usuario'];
-$n_usuario='magdalena';
+$n_usuario='martin';
 
 $n_clave=$_POST["passw"];
 $n_clave_rep=$_POST['passw_rep'];
