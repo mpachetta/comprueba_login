@@ -33,7 +33,7 @@
 </script>
 </head>
 <body>
-    <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" name='login' id='login'>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" name='login' id='login'>
         <label for="usuario">Introduzca un nombre de usuario:</label>
         <input type="text" name="usuario" id="usuario">
         <label for="passw">Introduzca una contraseña:</label>

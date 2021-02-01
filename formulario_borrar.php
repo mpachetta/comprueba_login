@@ -33,7 +33,7 @@
 </head>
 
 <body>
-    <form action="<?php $_SERVER['PHP_SELF'] ?>" method="post" name='login' id='login'>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" name='login' id='login'>
     <label for="usuario">Usuario:</label>
         <h3>nombre de usuario</h3>
         <!-- <?php echo $_SESSION['usuario']?> -->
