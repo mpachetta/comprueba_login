@@ -37,6 +37,9 @@ try{
                 session_start();
 
                 $_SESSION['user']=$_POST['usuario'];
+
+                
+                echo "<button id='iniciar'><a href='lectus.php'>Iniciar</a></button>";
             }else{
 
                 echo "La contraseña es incorrecta. <br>Intente nuevamente.";

@@ -57,7 +57,7 @@ if($n_usuario==""){
                         }else{
                             echo("Felicitaciones $n_usuario. Registro exitoso.<br><br>");
             
-                            echo "<p><a href='formulario_ingresar.php'>Continuar</a></p>";
+                            echo "<p><a href='../Lectus\index.php'>Continuar</a></p>";
                         }
     
                     $resultado->closeCursor();
